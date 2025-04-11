@@ -15,7 +15,7 @@ Instalar:
 
 Ejecuta el siguiente comando en la terminal:
 ```bash
-git clone https://github.com/cachi001/noticias-tp.git
+git clone https://github.com/cachi001/instrumentos-tp.git
 ```
 
 ---
@@ -44,10 +44,10 @@ Si el puerto es diferente, cambiarlo en `config/webConfig` del backend.
 3. Configura la conexión a la base de datos en el archivo `application.properties`:
 
 ```properties
-spring.application.name=noticias-tp
+spring.application.name=instrumentos-tp
 
 spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:mysql://localhost:3306/noticias-tp  # Nombre de la BD
+spring.datasource.url=jdbc:mysql://localhost:3306/instrumentos_db  # Nombre de la BD
 spring.datasource.username=root  # Usuario
 spring.datasource.password=1122  # Contraseña
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
